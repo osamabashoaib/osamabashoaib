@@ -225,13 +225,16 @@ Embedded mechatronics system for automatic photovoltaic panel orientation based 
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=osamabashoaib&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" />
+<img width="48%"
+     src="https://github-readme-stats.vercel.app/api?username=osamabashoaib&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" />
 
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=osamabashoaib&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
+<img width="48%"
+     src="https://github-readme-streak-stats.herokuapp.com/?user=osamabashoaib&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
 
 <br/><br/>
 
-<img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=osamabashoaib&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8" />
+<img width="45%"
+     src="https://github-readme-stats.vercel.app/api/top-langs/?username=osamabashoaib&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8" />
 
 </div>
 
@@ -241,7 +244,7 @@ Embedded mechatronics system for automatic photovoltaic panel orientation based 
 
 <div align="center">
 
-<i>"A robotic system becomes useful when perception turns into reliable action."</i>
+### *"A robotic system becomes useful when perception turns into reliable action."*
 
 </div>
 
@@ -267,7 +270,8 @@ Embedded mechatronics system for automatic photovoltaic panel orientation based 
 
 <div align="center">
 
-**Open to opportunities in Robotics Software • Computer Vision • Embedded Systems**
+### Open to opportunities in  
+**Robotics Software • Computer Vision • Embedded Systems**
 
 </div>
 
