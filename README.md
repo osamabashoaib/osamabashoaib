@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:0f4c75,100:38bdf8&height=235&section=header&text=Osama%20Ba%20shoaib&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=37&desc=Robotics%20Software%20%7C%20Computer%20Vision%20%7C%20Embedded%20Systems&descAlignY=59&descSize=19" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:0f4c75,100:38bdf8&height=235&section=header&text=Osama%20Bashoaib&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=37&desc=Robotics%20Software%20%7C%20Computer%20Vision%20%7C%20Embedded%20Systems&descAlignY=59&descSize=19" />
 
 <br/>
 
@@ -12,7 +12,9 @@
 
 ## 👋 About Me
 
-I’m **Osama Ba Shoaib**, a Master 2 student in **Mechatronics, Energy and Intelligent Systems (MESI)** focused on building complete robotic systems across **perception, simulation, control and embedded software**.
+I’m **Osama Bashoaib**, a Master 2 student in **Mechatronics, Energy and Intelligent Systems (MESI)**, currently completing my **final-year internship in Robotics & Computer Vision at ABMI Groupe**.
+
+My work focuses on building complete robotic systems across **perception, simulation, control, computer vision and embedded software**.
 
 I enjoy connecting the full robotics chain:
 
@@ -22,7 +24,7 @@ I enjoy connecting the full robotics chain:
 
 </div>
 
-Currently, I am working on a **6-DoF vision-guided robotic arm demonstrator at ABMI Groupe**, combining ROS 2, computer vision and real-world robotic validation.
+At ABMI Groupe, I am currently working on a **6-DoF vision-guided robotic arm demonstrator**, combining ROS 2, computer vision and real-world robotic validation.
 
 ---
 
@@ -180,6 +182,7 @@ Embedded control system for automatic photovoltaic panel orientation.
 <div align="center">
 
 <img width="48%" src="https://github-readme-stats.vercel.app/api?username=osamabashoaib&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" />
+
 <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=osamabashoaib&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
 
 <br/><br/>
@@ -207,7 +210,9 @@ Embedded control system for automatic photovoltaic panel orientation.
 <a href="https://www.linkedin.com/in/osama-bashoaib/" target="_blank">
   <img src="https://skillicons.dev/icons?i=linkedin" width="45" />
 </a>
+
 &nbsp;&nbsp;&nbsp;&nbsp;
+
 <a href="https://github.com/osamabashoaib" target="_blank">
   <img src="https://skillicons.dev/icons?i=github" width="45" />
 </a>
