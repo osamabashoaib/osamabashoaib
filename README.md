@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:0f4c75,100:38bdf8&height=235&section=header&text=Osama%20Bashoaib&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=37&desc=Robotics%20Software%20%7C%20Computer%20Vision%20%7C%20Embedded%20Systems&descAlignY=59&descSize=19" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:0f4c75,100:38bdf8&height=235&section=header&text=Osama%20Bashoaib&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=37&desc=Robotics%20%26%20Mechatronics%20%7C%20Perception%20%7C%20Autonomous%20Systems%20%7C%20Embedded%20Software&descAlignY=59&descSize=17" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2400&pause=850&color=38BDF8&center=true&vCenter=true&width=850&lines=ROS+2+%2B+Computer+Vision+%2B+Embedded+Linux;From+Camera+Calibration+to+Robot+Control;Perception+%E2%86%92+Planning+%E2%86%92+Control+%E2%86%92+Real+Robot" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2400&pause=850&color=38BDF8&center=true&vCenter=true&width=900&lines=ROS+2+%7C+C%2B%2B+%7C+Python+%7C+Linux;Camera+Calibration+%E2%86%92+6-DoF+Pose+%E2%86%92+Robot+Control;LiDAR+%7C+SLAM+%7C+Nav2+%7C+Autonomous+Navigation;Perception+%E2%86%92+Planning+%E2%86%92+Control+%E2%86%92+Real+Robot" />
 
 </div>
 
@@ -12,53 +12,63 @@
 
 ## 👋 About Me
 
-I’m **Osama Bashoaib**, a Master 2 student in **Mechatronics, Energy and Intelligent Systems (MESI)**, currently completing my **final-year internship in Robotics & Computer Vision at ABMI Groupe**.
+I’m **Osama Bashoaib**, a Master 2 student in **Mechatronics, Energy and Intelligent Systems (MESI)** at the University of Strasbourg, currently completing my **final-year internship in Robotics & Computer Vision at ABMI Groupe**.
 
-My work focuses on the development and integration of robotic systems combining **perception, computer vision, simulation, control and embedded software**.
+I develop and integrate robotic systems that connect **perception, autonomous navigation, control, simulation and embedded software** — from sensor data to validated behavior on a physical robot.
 
 <div align="center">
 
-### `Sensors → Perception → Pose Estimation → Planning → Control → Real Robot`
+### `Sensors → Perception → Localization → Planning → Control → Real Robot`
 
 </div>
+
+### 🔎 Engineering Snapshot
+
+* **Robotics:** ROS 2, MoveIt 2, Nav2, Gazebo Harmonic, URDF
+* **Perception:** OpenCV, DREAM, ArUco / ChArUco, camera calibration, filtering, 6-DoF pose estimation
+* **Autonomous systems:** LiDAR, SLAM, occupancy grids, odometry, Dijkstra, obstacle avoidance
+* **Embedded software:** Raspberry Pi, Arduino, FPGA, UART, I²C, PWM, GPIO, timers and interrupts
+* **Development:** C, C++, Python, Linux, Git, TCP/IP
+* **Validation:** simulation, physical-robot testing, accuracy and robustness analysis, technical documentation
 
 ---
 
 ## 🤖 Current Engineering Focus
 
-### 6-DoF Robotic Vision Demonstrator — ABMI Groupe
+### 6-DoF Vision-Guided Robotic Arm — ABMI Groupe
 
 <p align="center">
   <a href="projects/abmi-robotic-vision.md">
     <img src="assets/projects/abmi-robotic-vision.png"
          width="82%"
-         alt="6-DoF Robotic Vision Demonstrator">
+         alt="6-DoF Vision-Guided Robotic Arm">
   </a>
 </p>
 
 <div align="center">
 
-`ROS 2` `Python` `C++` `OpenCV` `Gazebo` `MoveIt 2` `URDF` `Linux`
+`ROS 2` `Python` `C++` `Linux` `OpenCV` `DREAM` `Gazebo Harmonic` `MoveIt 2` `TCP`
 
 </div>
 
-Development and integration of a **vision-guided robotic arm demonstrator**.
+Development and integration of a **vision-guided MyCobot 320 Pi demonstrator** for robotic manipulation and pick-and-place.
 
-My publicly shareable work covers:
+My publicly shareable work includes:
 
-- ROS 2 robotic-arm integration
-- Robot modelling and simulation
-- Camera calibration
-- ArUco / ChArUco perception
-- 6-DoF pose estimation
-- Tracking and filtering
-- Vision-in-the-loop control
-- Vision-guided pick-and-place
-- Experimental validation on the physical robot
+* **Closed-loop visual servoing** for robot guidance and pick-and-place
+* ROS 2 integration using **Galactic / Jazzy**, MoveIt 2 and TCP communication under Linux
+* Image acquisition and a vision pipeline using **OpenCV / DREAM**
+* **Camera calibration**, filtering and **6-DoF pose estimation**
+* ArUco / ChArUco-based perception and tracking
+* Robot modelling and simulation with **Gazebo Harmonic**
+* Experimental validation in simulation and on the **physical robot**
+* Accuracy, robustness and technical-validation analysis
 
 <div align="center">
 
-### [View full project →](projects/abmi-robotic-vision.md)
+### [Project overview →](projects/abmi-robotic-vision.md)
+
+### [Public ABMI repository / pick-and-place branch →](https://github.com/ABMI-software/mycobot_320pi_R6A/tree/feature/pick-and-place-osama)
 
 </div>
 
@@ -66,11 +76,33 @@ My publicly shareable work covers:
 
 ---
 
-## 🌟 Featured Projects
+## 🌟 Featured Engineering Projects
 
 <table>
 
 <tr>
+
+<td width="50%" valign="top">
+
+### 🚗 [Autonomous Mobile Robot — York](projects/autonomous-maze-robot.md)
+
+<a href="projects/autonomous-maze-robot.md">
+  <img src="assets/projects/autonomous-maze-robot.png"
+       width="100%"
+       alt="Autonomous Mobile Robot">
+</a>
+
+<br/>
+
+`C++` `Python` `Linux` `Raspberry Pi` `Arduino` `OpenCV` `ArUco`
+
+Autonomous mobile-robot architecture combining **PWM motor control, encoders, odometry, PI regulation, FSM, Dijkstra planning on an occupancy grid, perception and low-pass filtering**.
+
+Hardware/software integration between a **Raspberry Pi 4 and Arduino Nano 33 BLE**, using UART and I²C for communication and sensor acquisition.
+
+**[Explore project →](projects/autonomous-maze-robot.md)**
+
+</td>
 
 <td width="50%" valign="top">
 
@@ -84,31 +116,13 @@ My publicly shareable work covers:
 
 <br/>
 
-`ROS 2` `SLAM` `Nav2` `LiDAR`
+`ROS 2 Humble` `SLAM` `Nav2` `LiDAR` `Explore Lite`
 
-Autonomous indoor mapping, navigation, exploration and dynamic obstacle avoidance using TurtleBot3.
+TurtleBot3 integration under Ubuntu 22.04 with **Raspberry Pi 4, OpenCR and LDS-01 LiDAR**.
+
+Implementation of **SLAM, autonomous exploration, path planning and obstacle avoidance** in simulation and on the physical robot.
 
 **[Explore project →](projects/turtlebot3-autonomous-navigation.md)**
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🚗 [Autonomous Maze Robot](projects/autonomous-maze-robot.md)
-
-<a href="projects/autonomous-maze-robot.md">
-  <img src="assets/projects/autonomous-maze-robot.png"
-       width="100%"
-       alt="Autonomous Maze Robot">
-</a>
-
-<br/>
-
-`Raspberry Pi` `Arduino` `OpenCV` `ArUco` `FSM`
-
-Autonomous exploration with wall-following, obstacle avoidance, ArUco detection and return-to-start logic.
-
-**[Explore project →](projects/autonomous-maze-robot.md)**
 
 </td>
 
@@ -128,9 +142,11 @@ Autonomous exploration with wall-following, obstacle avoidance, ArUco detection 
 
 <br/>
 
-`DE10-Lite` `Nios II` `C` `Timers` `Interrupts`
+`DE10-Lite` `Nios II` `C` `Avalon` `Timers` `Interrupts`
 
-FPGA-based embedded system combining hardware timers, GPIO and interrupt-driven C programming.
+Hardware/software design of a real-time embedded system on **DE10-Lite FPGA**, integrating a Nios II processor, On-Chip memory and PIO/GPIO peripherals.
+
+Development in **C** with timers, interrupts and JTAG UART debugging.
 
 **[Explore project →](projects/fpga-real-time-system.md)**
 
@@ -148,9 +164,9 @@ FPGA-based embedded system combining hardware timers, GPIO and interrupt-driven 
 
 <br/>
 
-`Arduino UNO` `RTC` `Servomotors`
+`C++` `Arduino UNO` `RTC` `Servomotors` `Autodesk Inventor`
 
-Embedded mechatronics system for automatic photovoltaic panel orientation based on solar position.
+Embedded mechatronics system for automatic photovoltaic-panel orientation, combining **C++ control, servomotors, RTC timing and mechanical design**.
 
 **[Explore project →](projects/automated-solar-tracking-system.md)**
 
@@ -162,18 +178,18 @@ Embedded mechatronics system for automatic photovoltaic panel orientation based 
 
 ---
 
-## 🚀 What I Build
+## 🚀 What I Work On
 
-- **Robotics software** — ROS 2, MoveIt 2, Nav2, Gazebo and RViz
-- **Computer vision** — OpenCV, ArUco, ChArUco and 6-DoF pose estimation
-- **Autonomous systems** — SLAM, LiDAR navigation and obstacle avoidance
-- **Embedded systems** — Raspberry Pi, Arduino and FPGA
-- **Robot manipulation** — calibration, perception and vision-guided pick-and-place
-- **Real-time systems** — timers, interrupts and hardware/software integration
+* **Robot perception** — camera calibration, image processing, tracking and 6-DoF pose estimation
+* **Autonomous navigation** — SLAM, LiDAR, Nav2, occupancy grids, planning and obstacle avoidance
+* **Robot manipulation** — MoveIt 2, vision-guided control and pick-and-place
+* **Embedded robotics** — Raspberry Pi, Arduino, sensor acquisition and actuator control
+* **Real-time embedded systems** — FPGA, Nios II, timers, interrupts and hardware/software integration
+* **Simulation-to-real validation** — Gazebo-based development followed by testing on physical robotic systems
 
 ---
 
-## 🛠 Core Skills
+## 🛠 Core Technologies
 
 <div align="center">
 
@@ -183,10 +199,11 @@ Embedded mechatronics system for automatic photovoltaic panel orientation based 
 
 <img src="https://img.shields.io/badge/ROS%202-22314E?style=for-the-badge&logo=ros&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-<img src="https://img.shields.io/badge/Gazebo-0E7C7B?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Gazebo%20Harmonic-0E7C7B?style=for-the-badge" />
 <img src="https://img.shields.io/badge/MoveIt%202-1E293B?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Nav2-0F766E?style=for-the-badge" />
 <img src="https://img.shields.io/badge/SLAM-7C3AED?style=for-the-badge" />
+<img src="https://img.shields.io/badge/LiDAR-334155?style=for-the-badge" />
 <img src="https://img.shields.io/badge/FPGA-2563EB?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Embedded%20Linux-EA580C?style=for-the-badge" />
 
@@ -196,24 +213,26 @@ Embedded mechatronics system for automatic photovoltaic panel orientation based 
 
 ## 🧩 Technology Matrix
 
-| Area | Tools & Technologies |
-|---|---|
-| 🤖 **Robotics** | ROS 2, MoveIt 2, Gazebo, RViz, Nav2, SLAM, URDF |
-| 👁️ **Computer Vision** | OpenCV, ArUco, ChArUco, solvePnP, camera calibration, pose estimation |
-| 💻 **Programming** | Python, C, C++, Bash |
-| 🔧 **Embedded Systems** | Raspberry Pi, Arduino, FPGA, UART, I²C, PWM, GPIO |
-| ⚡ **Real-Time Systems** | Timers, interrupts, Nios II, hardware/software integration |
-| 🐧 **Development** | Linux, Git, GitHub, TCP/IP |
+| Area                             | Tools & Technologies                                                                          |
+| -------------------------------- | --------------------------------------------------------------------------------------------- |
+| 🤖 **Robotics**                  | ROS 2, MoveIt 2, Gazebo Harmonic, RViz, Nav2, SLAM, URDF                                      |
+| 👁️ **Computer Vision**          | OpenCV, DREAM, ArUco, ChArUco, solvePnP, camera calibration, filtering, 6-DoF pose estimation |
+| 🗺️ **Autonomous Navigation**    | LiDAR, occupancy grids, odometry, Dijkstra, Explore Lite, path planning, obstacle avoidance   |
+| 💻 **Programming**               | Python, C, C++, Bash                                                                          |
+| 🔧 **Embedded Systems**          | Raspberry Pi, Arduino, FPGA, UART, I²C, PWM, GPIO                                             |
+| ⚡ **Real-Time Systems**          | Nios II, timers, interrupts, Avalon, hardware/software integration                            |
+| 🧪 **Simulation & Modelling**    | Gazebo Harmonic, MATLAB / Simulink, URDF                                                      |
+| 🐧 **Development & Integration** | Linux, Git, GitHub, TCP/IP, JTAG UART                                                         |
 
 ---
 
-## 🎯 Focus Areas
+## 🎯 Current Focus
 
 <div align="center">
 
 `Robot Perception` · `Computer Vision` · `Autonomous Robotics`
 
-`Vision-Guided Manipulation` · `Embedded Linux` · `Real-Time Systems`
+`LiDAR & SLAM` · `Vision-Guided Manipulation` · `Embedded Linux`
 
 `Sensor Integration` · `Simulation-to-Real` · `Hardware/Software Integration`
 
@@ -221,32 +240,17 @@ Embedded mechatronics system for automatic photovoltaic panel orientation based 
 
 ---
 
-## 📊 GitHub Analytics
+## 💼 Career Interests
 
-<div align="center">
+I’m interested in engineering opportunities involving:
 
-<img width="48%"
-     src="https://github-readme-stats.vercel.app/api?username=osamabashoaib&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8" />
+* **Robotics / Mechatronics Engineering**
+* **Perception & Computer Vision**
+* **Autonomous Mobile Robotics**
+* **Embedded Robotics Software**
+* **Sensor Integration, Localization & Navigation**
 
-<img width="48%"
-     src="https://github-readme-streak-stats.herokuapp.com/?user=osamabashoaib&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" />
-
-<br/><br/>
-
-<img width="45%"
-     src="https://github-readme-stats.vercel.app/api/top-langs/?username=osamabashoaib&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8" />
-
-</div>
-
----
-
-## 🧠 Engineering Philosophy
-
-<div align="center">
-
-### *"A robotic system becomes useful when perception turns into reliable action."*
-
-</div>
+**Available for a full-time position from 22 October 2026.**
 
 ---
 
@@ -255,13 +259,19 @@ Embedded mechatronics system for automatic photovoltaic panel orientation based 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/osama-bashoaib/" target="_blank">
-  <img src="https://skillicons.dev/icons?i=linkedin" width="45" />
+  <img src="https://skillicons.dev/icons?i=linkedin" width="45" alt="LinkedIn" />
 </a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+    
+
+<a href="mailto:osama.bashoaib19@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact%20Me-38BDF8?style=for-the-badge" alt="Email" />
+</a>
+
+    
 
 <a href="https://github.com/osamabashoaib" target="_blank">
-  <img src="https://skillicons.dev/icons?i=github" width="45" />
+  <img src="https://skillicons.dev/icons?i=github" width="45" alt="GitHub" />
 </a>
 
 </div>
@@ -270,8 +280,9 @@ Embedded mechatronics system for automatic photovoltaic panel orientation based 
 
 <div align="center">
 
-### Open to opportunities in  
-**Robotics Software • Computer Vision • Embedded Systems**
+### Open to opportunities in
+
+**Robotics • Mechatronics • Computer Vision • Autonomous Systems • Embedded Software**
 
 </div>
 
