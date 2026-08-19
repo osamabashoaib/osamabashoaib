@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:0f4c75,100:38bdf8&height=235&section=header&text=Osama%20Ba%20Shoaib&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=37&desc=Robotics%20Software%20%7C%20Computer%20Vision%20%7C%20Embedded%20Systems&descAlignY=59&descSize=19" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,55:0f4c75,100:38bdf8&height=235&section=header&text=Osama%20Ba%20shoaib&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=37&desc=Robotics%20Software%20%7C%20Computer%20Vision%20%7C%20Embedded%20Systems&descAlignY=59&descSize=19" />
 
 <br/>
 
