@@ -120,12 +120,11 @@ Autonomous exploration with wall-following, obstacle avoidance, ArUco detection 
 
 ### 💻 [FPGA Real-Time Embedded System](projects/fpga-real-time-system.md)
 
-<div align="center">
-
-### `DE10-Lite`
-#### FPGA · Nios II · Real-Time C
-
-</div>
+<a href="projects/fpga-real-time-system.md">
+  <img src="assets/projects/fpga-real-time-system.png"
+       width="100%"
+       alt="FPGA Real-Time Embedded System">
+</a>
 
 <br/>
 
