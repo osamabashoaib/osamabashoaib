@@ -1,149 +1,118 @@
-Osama Ba Shoaib
+<div align="center">
 
-Robotics software, computer vision and embedded systems.
+# 👋 Hi, I'm Osama Ba Shoaib
 
-I build robotic systems that connect perception, control, simulation and hardware.
+### 🤖 Robotics • Computer Vision • Embedded Systems
 
-Currently completing a Master 2 in Mechatronics, Energy and Intelligent Systems (MESI) and working on a robotics / computer vision project at ABMI Groupe.
+Building robotic systems from **perception and simulation to control and real-world validation**.
 
-currently_building
+<br>
 
-6-DoF Robotic Vision Demonstrator — ABMI Groupe
+![ROS2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
-Development and integration of a vision-guided robotic arm demonstrator.
+</div>
 
-ROS 2 · Python · C++ · OpenCV · Gazebo · MoveIt 2 · Linux
+---
 
-Robotic arm integration in a ROS 2 architecture
+## 👨‍💻 About Me
 
-URDF, controllers and MoveIt 2 integration
+🎓 Master 2 student in **Mechatronics, Energy and Intelligent Systems (MESI)**
 
-Digital Twin development in Gazebo
+🤖 Currently working in **Robotics & Computer Vision at ABMI Groupe**
 
-Camera calibration for eye-to-hand / eye-in-hand configurations
+💻 Interested in **robotics software, embedded systems, perception and autonomous systems**
 
-ArUco / ChArUco based perception
+🔧 I enjoy connecting:
 
-Pose estimation with solvePnP
+**Sensors → Perception → Decision → Control → Robot**
 
-Tracking and filtering
+---
 
-Vision-in-the-loop control
+# 🚀 Current Project
 
-Vision-guided pick-and-place
+## 🤖 6-DoF Robotic Vision Demonstrator — ABMI Groupe
 
-Experimental validation on the physical system
+Development and integration of a **vision-guided robotic arm demonstrator**.
 
-selected_systems
+### 🔧 Robotics
 
-Autonomous Mobile Robot — TurtleBot3
+- Integration of a robotic arm into a **ROS 2 architecture**
+- Robot modelling with **URDF**
+- Motion planning with **MoveIt 2**
+- Controller integration
+- Development of a **Digital Twin in Gazebo**
 
-Goal: autonomous navigation in an indoor environment.
+### 👁️ Computer Vision
 
-ROS 2 · SLAM · Nav2 · Gazebo · RViz · LiDAR
+- Camera and sensor calibration
+- **Eye-to-hand / Eye-in-hand** configurations
+- ArUco / ChArUco detection
+- Pose estimation with **solvePnP**
+- Tracking and filtering
 
-Configured and programmed a TurtleBot3 under ROS 2
+### 🎯 Robot Control
 
-Built indoor maps using real-time SLAM
+- Vision-in-the-loop control
+- Vision-guided robotic manipulation
+- **Pick-and-place**
+- Experimental validation on the physical robot
 
-Implemented autonomous navigation between targets
+### 🛠️ Stack
 
-Integrated dynamic obstacle avoidance
+`ROS 2` `Python` `C++` `OpenCV` `Gazebo` `MoveIt 2` `Linux`
 
-Tested autonomous exploration with explore_lite
+---
 
-Autonomous Maze Exploration Robot
+# 🧩 Selected Projects
 
-Goal: explore an unknown indoor environment and return to the starting point.
+## 🗺️ TurtleBot3 Autonomous Mobile Robot
 
-Raspberry Pi · Arduino · OpenCV · ArUco · Odometry · FSM
+**ROS 2 • SLAM • Nav2 • Gazebo • RViz • LiDAR**
 
-Differential-drive mobile robot
+- Configured and programmed a TurtleBot3 under ROS 2
+- Built real-time indoor maps using **SLAM**
+- Implemented autonomous navigation between targets
+- Integrated dynamic obstacle avoidance
+- Tested autonomous exploration using `explore_lite`
 
-Camera, wheel encoders and IR / ultrasonic sensing
+---
 
-Left-wall-following and reactive obstacle avoidance
+## 🚗 Autonomous Maze Exploration Robot
 
-Finite-state-machine based behavior control
+**Raspberry Pi • Arduino • OpenCV • ArUco • Odometry • FSM**
 
-Basic environment mapping and path recording
+Designed and implemented a differential-drive autonomous mobile robot capable of:
 
-ArUco-based start-position identification
+- Exploring an unknown indoor environment
+- Following walls autonomously
+- Detecting and avoiding obstacles
+- Recording its trajectory
+- Identifying the starting position using **ArUco**
+- Returning toward its starting point
 
-Return-to-start strategy using the recorded trajectory
+### Architecture
 
-Automated Solar Tracking System
-
-Goal: automatically orient a photovoltaic panel according to the sun position.
-
-Arduino UNO · Servomotors · RTC · Embedded Control
-
-Solar elevation and azimuth calculation
-
-Automatic panel orientation
-
-RTC-based time synchronization
-
-Embedded control of servomotors
-
-toolbox
-
-Robotics
-
-ROS 2 MoveIt 2 Gazebo RViz Nav2 SLAM URDF
-
-Computer Vision
-
-OpenCV ArUco ChArUco solvePnP Pose Estimation Camera Calibration
-
-Software
-
-Python C C++ Bash Git Linux
-
-Embedded Systems
-
-Raspberry Pi Arduino UART I2C PWM Encoders Sensors
-
-engineering_focus
-
-camera / sensors
-      ↓
-perception
-      ↓
-pose / state estimation
-      ↓
-robot decision & control
-      ↓
-actuation
-      ↓
-real-world validation
-
-My main interests are:
-
-Robotics software engineering
-
-Robot perception
-
-Computer vision
-
-Embedded Linux
-
-Hardware / software integration
-
-Autonomous systems
-
-Vision-guided manipulation
-
-Simulation-to-real validation
-
-industrial_experience
-
-VARICOR — Industrial Production Operator Intern
-
-Worked on diagnosis, troubleshooting and restart of mechanical, electrical and automated production equipment, including drilling, tapping, counterboring and welding systems.
-
-connect
-
-GitHub: @osamabashoaib
-
-Open to opportunities in robotics, computer vision and embedded software.
+```text
+Camera ──────────────┐
+                     │
+IR / Ultrasonic ─────┼──► Perception
+                     │
+Wheel Encoders ──────┘
+                           │
+                           ▼
+                     State Machine
+                           │
+              ┌────────────┼────────────┐
+              ▼            ▼            ▼
+           EXPLORE    WALL FOLLOW   RETURN HOME
+              │            │            │
+              └────────────┼────────────┘
+                           ▼
+                     Motor Control
+                           │
+                           ▼
+                        Robot
