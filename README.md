@@ -1,10 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:38bdf8&height=220&section=header&text=Osama%20Bashoaib&fontSize=50&fontColor=ffffff&fontAlignY=38" />
+<img width="100%"
+     src="https://capsule-render.vercel.app/api?type=waving&color=0:475569,100:60A5FA&height=220&section=header&text=Osama%20Bashoaib&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Mechatronics%20Engineer%20%7C%20Robotics%20%26%20Computer%20Vision%20%7C%20Embedded%20Systems&descAlignY=58&descSize=18" />
 
-<br/>
+<br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2400&pause=850&color=38BDF8&center=true&vCenter=true&width=900&lines=ROS+2+%7C+C%2B%2B+%7C+Python+%7C+Linux;Camera+Calibration+%E2%86%92+6-DoF+Pose+%E2%86%92+Robot+Control;LiDAR+%7C+SLAM+%7C+Nav2+%7C+Autonomous+Navigation;Perception+%E2%86%92+Planning+%E2%86%92+Control+%E2%86%92+Real+Robot" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2600&pause=900&color=2FA8FF&center=true&vCenter=true&width=900&lines=ROS+2+%2F+Computer+Vision+%2F+Autonomous+Robotics;LiDAR+%2F+SLAM+%2F+Nav2+%2F+Robot+Perception;Embedded+Linux+%2F+C%2B%2B+%2F+Python" />
 
 </div>
 
