@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-banner.png" width="100%" alt="Osama Ba Shoaib">
+<img src="assets/profile-banner.png" width="100%" alt="Osama Bashoaib">
 
 ### Robotics Software • Computer Vision • Embedded Systems
 
