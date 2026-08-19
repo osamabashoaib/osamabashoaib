@@ -26,11 +26,21 @@ My work focuses on the development and integration of robotic systems combining 
 
 ## 🤖 Current Engineering Focus
 
-<table>
-<tr>
-<td width="67%" valign="top">
-
 ### 6-DoF Robotic Vision Demonstrator — ABMI Groupe
+
+<p align="center">
+  <a href="projects/abmi-robotic-vision.md">
+    <img src="assets/projects/abmi-robotic-vision.png"
+         width="82%"
+         alt="6-DoF Robotic Vision Demonstrator">
+  </a>
+</p>
+
+<div align="center">
+
+`ROS 2` `Python` `C++` `OpenCV` `Gazebo` `MoveIt 2` `URDF` `Linux`
+
+</div>
 
 Development and integration of a **vision-guided robotic arm demonstrator**.
 
@@ -46,28 +56,11 @@ My publicly shareable work covers:
 - Vision-guided pick-and-place
 - Experimental validation on the physical robot
 
-</td>
+<div align="center">
 
-<td width="33%" valign="top">
+### [View full project →](projects/abmi-robotic-vision.md)
 
-### ⚙️ Main Stack
-
-`ROS 2`  
-`Python`  
-`C++`  
-`OpenCV`  
-`Gazebo`  
-`MoveIt 2`  
-`URDF`  
-`Linux`
-
-<br/>
-
-### [View project →](projects/abmi-robotic-vision.md)
-
-</td>
-</tr>
-</table>
+</div>
 
 > Only publicly shareable information about the ABMI project is presented here.
 
@@ -83,11 +76,19 @@ My publicly shareable work covers:
 
 ### 🗺️ [TurtleBot3 Autonomous Navigation](projects/turtlebot3-autonomous-navigation.md)
 
+<a href="projects/turtlebot3-autonomous-navigation.md">
+  <img src="assets/projects/turtlebot3-autonomous-navigation.png"
+       width="100%"
+       alt="TurtleBot3 Autonomous Navigation">
+</a>
+
+<br/>
+
 `ROS 2` `SLAM` `Nav2` `LiDAR`
 
 Autonomous indoor mapping, navigation, exploration and dynamic obstacle avoidance using TurtleBot3.
 
-**[Open project →](projects/turtlebot3-autonomous-navigation.md)**
+**[Explore project →](projects/turtlebot3-autonomous-navigation.md)**
 
 </td>
 
@@ -95,11 +96,19 @@ Autonomous indoor mapping, navigation, exploration and dynamic obstacle avoidanc
 
 ### 🚗 [Autonomous Maze Robot](projects/autonomous-maze-robot.md)
 
+<a href="projects/autonomous-maze-robot.md">
+  <img src="assets/projects/autonomous-maze-robot.png"
+       width="100%"
+       alt="Autonomous Maze Robot">
+</a>
+
+<br/>
+
 `Raspberry Pi` `Arduino` `OpenCV` `ArUco` `FSM`
 
 Autonomous exploration with wall-following, obstacle avoidance, ArUco detection and return-to-start logic.
 
-**[Open project →](projects/autonomous-maze-robot.md)**
+**[Explore project →](projects/autonomous-maze-robot.md)**
 
 </td>
 
@@ -111,11 +120,20 @@ Autonomous exploration with wall-following, obstacle avoidance, ArUco detection 
 
 ### 💻 [FPGA Real-Time Embedded System](projects/fpga-real-time-system.md)
 
+<div align="center">
+
+### `DE10-Lite`
+#### FPGA · Nios II · Real-Time C
+
+</div>
+
+<br/>
+
 `DE10-Lite` `Nios II` `C` `Timers` `Interrupts`
 
 FPGA-based embedded system combining hardware timers, GPIO and interrupt-driven C programming.
 
-**[Open project →](projects/fpga-real-time-system.md)**
+**[Explore project →](projects/fpga-real-time-system.md)**
 
 </td>
 
@@ -123,11 +141,19 @@ FPGA-based embedded system combining hardware timers, GPIO and interrupt-driven 
 
 ### ☀️ [Automated Solar Tracking System](projects/automated-solar-tracking-system.md)
 
+<a href="projects/automated-solar-tracking-system.md">
+  <img src="assets/projects/automated-solar-tracking-system.png"
+       width="100%"
+       alt="Automated Solar Tracking System">
+</a>
+
+<br/>
+
 `Arduino UNO` `RTC` `Servomotors`
 
 Embedded mechatronics system for automatic photovoltaic panel orientation based on solar position.
 
-**[Open project →](projects/automated-solar-tracking-system.md)**
+**[Explore project →](projects/automated-solar-tracking-system.md)**
 
 </td>
 
