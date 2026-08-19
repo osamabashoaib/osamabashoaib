@@ -1,0 +1,33 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5B6472"/>
+      <stop offset="100%" stop-color="#6F9FF5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="260" fill="#ffffff"/>
+
+  <path d="M0 0H1200V215
+           C980 202 790 210 610 221
+           C410 234 205 229 0 205Z"
+        fill="url(#bg)"/>
+
+  <text x="600" y="105"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="62"
+        font-weight="700"
+        fill="#ffffff">
+    Osama Bashoaib
+  </text>
+
+  <text x="600" y="160"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="25"
+        font-weight="600"
+        fill="#ffffff">
+    Mechatronics Engineer | Robotics &amp; Computer Vision | Embedded Systems
+  </text>
+</svg>
