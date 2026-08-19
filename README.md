@@ -259,26 +259,22 @@ I’m interested in engineering opportunities involving:
 <div align="center">
 
 <a href="https://www.linkedin.com/in/osama-bashoaib/" target="_blank">
-  <img src="https://skillicons.dev/icons?i=linkedin" width="45" alt="LinkedIn" />
+  <img src="https://skillicons.dev/icons?i=linkedin" width="55" alt="LinkedIn" />
 </a>
 
-    
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="mailto:osama.bashoaib19@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-38BDF8?style=for-the-badge" alt="Email" />
+  <img src="https://skillicons.dev/icons?i=gmail" width="55" alt="Gmail" />
 </a>
 
-    
+&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="https://github.com/osamabashoaib" target="_blank">
-  <img src="https://skillicons.dev/icons?i=github" width="45" alt="GitHub" />
+  <img src="https://skillicons.dev/icons?i=github" width="55" alt="GitHub" />
 </a>
 
 </div>
-
-<br/>
-
-<div align="center">
 
 ### Open to opportunities in
 
